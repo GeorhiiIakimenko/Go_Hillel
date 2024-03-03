@@ -94,6 +94,7 @@ func main() {
 	switch {
 	case num1 > num2:
 		fmt.Println("num1 is greater than num2")
+		fallthrough
 	case num1 < num2:
 		fmt.Println("num1 is less than num2")
 	}
